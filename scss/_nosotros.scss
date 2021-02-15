@@ -1,0 +1,83 @@
+.containerUnoNos {
+    display: flex;
+    justify-content: space-around
+
+}
+
+.nosotros {
+
+background-image: url(../../images/fondongral.jpg);
+height: 100%;
+width: 100%;
+background-size: 100% 100% 100%;
+background-repeat: repeat;
+
+}
+
+h1.sobrenos {
+    display: block;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 50px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    font-family: Alata;
+    color:#666;
+    text-align: center;
+    font-size: 30px;
+}
+
+.brindisnosotros{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 340px;
+    width: 90%; 
+}
+
+@media (max-width: 767px) {
+    .brindisnosotros {
+        min-height: 100px;
+    }
+}
+
+.brindisnosotros img {
+    box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+}
+
+
+.hijoNos {
+    text-align: center;
+    width: 40%;
+    font-family: Alata;
+    font-size: 14px;
+    margin-top: 70px;
+}
+
+.tercerHijoNos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Alata;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.pNombreBrinda {
+    font-family: Alata;
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .containerNosotros {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,598 @@
+.containerUnoNos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nosotros {
+  background-image: url(../../images/fondongral.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100% 100%;
+  background-repeat: repeat;
+}
+
+h1.sobrenos {
+  display: block;
+  margin-top: 50px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  font-family: Alata;
+  color: #666;
+  text-align: center;
+  font-size: 30px;
+}
+
+.brindisnosotros {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 340px;
+  width: 90%;
+}
+
+.brindisnosotros img {
+  box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+}
+
+.hijoNos {
+  text-align: center;
+  width: 40%;
+  font-family: Alata;
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+.tercerHijoNos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Alata;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.pNombreBrinda {
+  font-family: Alata;
+  font-size: 14px;
+  width: 40%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .containerNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.fondo-locales {
+  height: 100%;
+  width: 100%;
+  background-image: url(../../images/fondongral.jpg);
+  background-repeat: repeat;
+}
+
+.dondeEstamos {
+  display: block;
+  margin-top: 50px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  font-family: Alata;
+  color: #666;
+  text-align: center;
+  font-size: 30px;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mapa iframe {
+  box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
+}
+
+.textoLocales {
+  font-family: Alata;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.textoLocales2 {
+  text-align: center;
+  font-family: Alata;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.fotos {
+  background-color: black;
+}
+
+.galeria {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-family: Alata;
+}
+
+@media (min-width: 768px) {
+  .galeria {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: Alata;
+  }
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: black;
+  color: #272626;
+  font-family: Alata;
+  line-height: 1.6;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#EEAE1C), to(#f3be41));
+  background-image: linear-gradient(#EEAE1C, #f3be41);
+}
+
+.subtitulo {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1.presentacion {
+  font-family: Alata;
+  text-align: center;
+  background-color: black;
+  color: #ece7e7;
+  margin-bottom: 0%;
+  font-size: 40px;
+}
+
+h2 {
+  color: black;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.albertina {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-albertina {
+  font-family: Alata;
+}
+
+.joplin {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-joplin {
+  font-family: Alata;
+}
+
+.comboclassic {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-comboclassic {
+  font-family: Alata;
+}
+
+.veggie {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-veggie {
+  font-family: Alata;
+}
+
+.daikiri {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-daikiri {
+  font-family: Alata;
+}
+
+.extracheddar {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-extracheddar {
+  font-family: Alata;
+}
+
+.papasfritas {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-papasfritas {
+  font-family: Alata;
+}
+
+.mac-cheese {
+  margin-top: 5px;
+  font-family: Alata;
+}
+
+.p-mac-cheese {
+  font-family: Alata;
+}
+
+.redesGaleria a {
+  color: white !important;
+}
+
+.redesGaleria a:hover {
+  color: #EEAE1C !important;
+}
+
+.titulo-secundarioGaleria {
+  color: whitesmoke;
+  text-align: center;
+  font-family: Alata;
+  font-size: 30px;
+}
+
+.containerPrincipalForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form {
+  font-family: Alata;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100% 100%;
+  background-image: url(../../images/fondongral.jpg);
+  background-repeat: repeat;
+}
+
+input {
+  width: 100%;
+}
+
+.datospersonales {
+  font-size: 28px;
+  font-family: Alata;
+  text-align: center;
+  margin: 0px;
+  color: black;
+  margin-bottom: 26px;
+  margin-top: 26px;
+}
+
+.legend {
+  text-align: center;
+  margin: 0;
+  font-family: Alata;
+  color: black;
+  font-size: 20px;
+}
+
+.opciones {
+  background-color: white;
+  color: black;
+}
+
+.final {
+  background-color: white;
+  color: black;
+  margin-top: 18px;
+}
+
+.formulario {
+  display: block;
+  margin-top: 50px;
+  padding: 25px 30px;
+  border-radius: 50px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  font-family: Alata;
+  color: #666;
+  text-align: center;
+  font-size: 30px;
+}
+
+.horario {
+  color: white;
+  margin-top: 18px;
+}
+
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.checkbox input {
+  width: 20px;
+}
+
+input.botonForm {
+  font-family: Alata;
+  background-color: #ebae1f;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 30%;
+}
+
+.botonForm:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: #ebbc4e;
+}
+
+.containerBoton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html {
+  font-size: 100%;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* estilo links header */
+.header a {
+  float: left;
+  color: #cac7c7c0;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Alata;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #FFFFFF;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.boton {
+  font-family: Comfortaa;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.boton:hover {
+  background-color: #272626;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.boton a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.parrafo-boton {
+  margin-bottom: 60px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.titulo-secundario {
+  text-align: center;
+  color: black;
+  font-family: Alata;
+  font-size: x-large;
+}
+
+.redes {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #1d1e18;
+  margin-right: 10px;
+}
+
+.redes a:hover {
+  color: #EEAE1C;
+}
+/*# sourceMappingURL=estilo.css.map */

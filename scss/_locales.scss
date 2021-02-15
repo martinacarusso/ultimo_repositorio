@@ -1,0 +1,64 @@
+.fondo-locales {
+    height: 100%;
+    width: 100%;   
+    background-image: url(../../images/fondongral.jpg);
+    background-repeat: repeat;
+}
+
+.dondeEstamos {
+    display: block;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 50px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    font-family: Alata;
+    color:#666;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mapa {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.mapa iframe {
+    box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.71);
+}
+
+@media (max-width: 767px) {
+    .mapa {
+        text-align: center;
+    }
+}
+
+.textoLocales {
+    font-family: Alata;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+    .textoLocales {
+        font-size: 5px;
+    }
+}
+
+.textoLocales2 {
+    text-align: center;
+    font-family: Alata;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .textoLocales2 {
+        font-size: 5px;
+    }
+}

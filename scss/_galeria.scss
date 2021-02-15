@@ -1,0 +1,211 @@
+.fotos {
+    background-color: black;
+}
+
+.galeria{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: Alata;
+}
+
+@media (min-width:768px) {
+    .galeria{
+        text-align: center;
+        color: white;
+        font-size: x-large;
+        font-family: Alata;
+    } 
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: black;
+    color:rgb(39, 38, 38);
+    font-family: Alata;
+    line-height: 1.6;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: linear-gradient( #EEAE1C, #f3be41)
+}
+
+.subtitulo {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    
+}
+
+
+@keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+ * {
+    box-sizing: border-box;
+}
+
+h1.presentacion { 
+    font-family: Alata;
+    text-align: center;
+    background-color: black;
+    color: rgb(236, 231, 231);
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+
+h2 {
+color: black;
+
+
+}
+  /* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+  /* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+  /* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+    width: 50%;
+    }
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 767px) {
+    .column {
+    width: 100%;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+}
+
+.albertina {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-albertina {
+font-family: Alata;
+}
+
+.joplin {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-joplin {
+    font-family: Alata;
+}
+
+.comboclassic {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-comboclassic {
+    font-family: Alata;
+
+}
+
+.veggie {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-veggie {
+    font-family: Alata;
+}
+
+.daikiri {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-daikiri {
+    font-family: Alata;
+}
+
+.extracheddar {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-extracheddar {
+    font-family: Alata;
+}
+
+.papasfritas {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-papasfritas {
+    font-family: Alata;
+}
+
+.mac-cheese {
+    margin-top: 5px;
+    font-family: Alata;
+}
+
+.p-mac-cheese {
+    font-family: Alata;
+}
+
+.redesGaleria a {
+    color: white !important;
+}
+
+.redesGaleria a:hover {
+    color: #EEAE1C !important;
+}
+
+.titulo-secundarioGaleria{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Alata;
+    font-size: 30px;
+}

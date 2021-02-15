@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="BAR, RESERVA, CUMPLEAÑOS, AIRE LIBRE, CONTACTO">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Reserva</title>
+    <meta name="description" content="Los esperamos para disfrutar del ambiente al aire libre & buena musica! Hacé tu reserva. Cumpleaños | Eventos">
+    <link rel="stylesheet" href="../scss/css/estilo.css">
+</head>
+
+<body class="form">
+
+    <header >
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <a href="index.html"><img class="logo" src="../images/BRINDABARLOGO.png" alt="logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/locales.html">LOCALES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    </header>
+
+<h1 class="formulario">FORMULARIO DE RESERVA</h1>
+<div class="containerPrincipalForm">
+    <form action="#" method="GET" enctype="application/x-www-form-urlencoded">
+        <legend class="datospersonales">Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+    
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido"> 
+    
+            <label>Email</label>
+            <input type="text" name="email">
+            
+    
+        <legend class="datospersonales">¿Cuándo querés reservar?</legend>  
+            <label>Horario de reserva</label>
+            <input type="time" id="hora" min="9:00" max="18:00">
+
+        <label>Fecha de reserva</label>
+            <input type="date">
+
+    
+        <legend class="datospersonales">Contanos de tu evento.</legend>
+            <label>Cumpleaños</label>
+        <select class="opciones" name="cantidad de personas">
+            <option value="10 personas">10 personas</option>
+            <option value="20 personas">20 personas</option>
+            <option value="30 personas">30 personas</option>
+        </select>
+
+        <div class="checkbox">
+            <label>¿Te gustaría recibir promociones?</label>
+            <input type="checkbox" name="Desea" value="1"/>
+        </div>
+
+        <div class="containerBoton">
+            <input type="submit" value="Enviar" class="botonForm">
+            <input type="reset" value="Limpiar" class="botonForm">
+        </div>
+    
+    </form> 
+</div>
+
+<footer class="footer">
+    <h4 class="titulo-secundario">Nuestras redes</h4>
+
+    <nav class="redes">
+            <a href="https://www.facebook.com/BrindaBar-106801387911281" target="_blank"><i class="fab fa-facebook"></i></a> 
+            <a href="https://www.instagram.com/brindabar_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=541167238954&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </nav>
+</footer>
+
+
+</body>
+</html>
