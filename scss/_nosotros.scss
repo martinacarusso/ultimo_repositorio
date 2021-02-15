@@ -34,12 +34,15 @@ h1.sobrenos {
     align-items: center;
     justify-content: center;
     min-height: 340px;
-    width: 90%; 
+    width: 98%; 
 }
 
 @media (max-width: 767px) {
     .brindisnosotros {
-        min-height: 100px;
+        min-height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

@@ -40,7 +40,22 @@ h1.sobrenos {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 340px;
-  width: 90%;
+  width: 98%;
+}
+
+@media (max-width: 767px) {
+  .brindisnosotros {
+    min-height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .brindisnosotros img {
@@ -132,6 +147,12 @@ h1.sobrenos {
   -moz-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.71);
 }
 
+@media (max-width: 767px) {
+  .mapa {
+    text-align: center;
+  }
+}
+
 .textoLocales {
   font-family: Alata;
   text-align: center;
@@ -139,11 +160,23 @@ h1.sobrenos {
   margin-top: 0px;
 }
 
+@media (max-width: 767px) {
+  .textoLocales {
+    font-size: 5px;
+  }
+}
+
 .textoLocales2 {
   text-align: center;
   font-family: Alata;
   font-size: 20px;
   margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .textoLocales2 {
+    font-size: 5px;
+  }
 }
 
 .fotos {
@@ -270,9 +303,12 @@ h1 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .column {
     width: 100%;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
@@ -376,16 +412,6 @@ h1 {
           align-items: center;
 }
 
-.form {
-  font-family: Alata;
-  font-size: 20px;
-  height: 100%;
-  width: 100%;
-  background-size: 100% 100% 100%;
-  background-image: url(../../images/fondongral.jpg);
-  background-repeat: repeat;
-}
-
 input {
   width: 100%;
 }
@@ -430,6 +456,12 @@ input {
   color: #666;
   text-align: center;
   font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .formulario {
+    font-size: 15px;
+  }
 }
 
 .horario {
@@ -485,65 +517,70 @@ html {
   font-size: 100%;
 }
 
-.header {
-  overflow: hidden;
-  background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60px;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-}
-
-/* estilo links header */
-.header a {
-  float: left;
-  color: #cac7c7c0;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 25px;
-  border-radius: 4px;
+.bg-dark {
+  background-color: black !important;
   font-family: Alata;
 }
 
+/*.header {
+    overflow: hidden;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}*/
+.logo {
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+/* estilo links header 
+.header a {
+    float: left;
+    color: #cac7c7c0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Alata;
+}
+
 .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .header a:hover {
-  color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .header-right {
-  float: right;
+    float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
+    .header a {
     float: none;
     display: block;
     text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
+    }
 
+    .header-right {
+    float: none;
+    }
+}*/
 .boton {
-  font-family: Comfortaa;
+  font-family: Alata;
   background-color: black;
   border: none;
   padding: 10px;
@@ -594,5 +631,10 @@ html {
 
 .redes a:hover {
   color: #EEAE1C;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=estilo.css.map */
